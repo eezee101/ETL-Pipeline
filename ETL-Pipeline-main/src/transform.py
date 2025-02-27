@@ -1,5 +1,5 @@
 def identify_and_remove_duplicated_data(df):
-    """Method that identifies and removes duplicates"""
+    """Method that identifies and removes duplicates here."""
 
     if df.duplicated().sum() > 0:
         df_cleaned = df.drop_duplicates(keep='first')
